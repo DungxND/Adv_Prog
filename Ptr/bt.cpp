@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+
 int strlen(char a[]) {
     int len = 0;
     while (a[len] != '\0') {
@@ -93,6 +94,12 @@ void trim_right(char a[]) {
 }
 
 int main() {
+    // int n;
+    // cin >> n;
+    // int *a = new int[n];
+    // for (int i = 0; i < n; i++) {
+    // cin >> a[i];
+
     char str[] = "   Brrrr2222   ";
     cout << str << endl;
 
@@ -119,5 +126,6 @@ int main() {
     trim_right(str);
     cout << str << endl;
 
+    // delete[] a;
     return 0;
 }
